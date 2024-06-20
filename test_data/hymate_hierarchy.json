@@ -1,0 +1,82 @@
+{
+  "Production": {
+    "Electrical production": {
+      "BHKWs (combined heat power plants)": [
+        {
+          "id": "CNV_1_CHP_1_ELCPOWEROUT",
+          "label": "BHKW 1 electrical power"
+        },
+        {
+          "id": "CNV_2_CHP_1_ELCPOWEROUT",
+          "label": "BHKW 2 electrical power"
+        },
+        {
+          "id": "CNV_3_CHP_1_ELCPOWEROUT",
+          "label": "BHKW 3 electrical power"
+        }
+      ],
+      "PVs (Photovoltaic systems)": [
+        {
+          "id": "PRD_1_PHV_1_ELCPOWEROUT",
+          "label": "PV 1"
+        },
+        {
+          "id": "PRD_2_PHV_1_ELCPOWEROUT",
+          "label": "PV 2"
+        },
+        {
+          "id": "PRD_3_PHV_1_ELCPOWEROUT",
+          "label": "PV 3"
+        }
+      ],
+      "Wind turbines": {
+        "Big turbines": [
+          {
+            "id": "PRD_4_WND_1_ELCPOWEROUT",
+            "label": "Big turbine 1"
+          },
+          {
+            "id": "PRD_5_WND_1_ELCPOWEROUT",
+            "label": "Big turbine 2"
+          }
+        ],
+        "Small turbines": [
+          {
+            "id": "PRD_6_WND_1_ELCPOWEROUT",
+            "label": "Small turbine 1"
+          },
+          {
+            "id": "PRD_7_WND_1_ELCPOWEROUT",
+            "label": "Small turbine 2"
+          }
+        ]
+      }
+    },
+    "Thermal production": {
+      "BHKWs": [
+        {
+          "id": "CNV_1_CHP_2_THRPOWEROUT",
+          "label": "BHKW 1 thermal power"
+        },
+        {
+          "id": "CNV_2_CHP_2_THRPOWEROUT",
+          "label": "BHKW 2 thermal power"
+        },
+        {
+          "id": "CNV_3_CHP_2_THRPOWEROUT",
+          "label": "BHKW 3 thermal power"
+        }
+      ]
+    }
+  },
+  "Consumption": [
+    {
+      "id": "CNS_1_BSL_1_ELCPOWEROUT",
+      "label": "Electical consumption"
+    },
+    {
+      "id": "CNS_2_BSL_2_THRPOWEROUT",
+      "label": "Thermal consumption"
+    }
+  ]
+}
